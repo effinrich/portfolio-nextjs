@@ -1,0 +1,67 @@
+{
+  "version": "2",
+  "flowTitle": "Monthly Portfolio Refresh & Improvements",
+  "trigger": {
+    "valid": true,
+    "displayName": "Monthly Schedule — 1st of Month",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.monthly",
+      "input": {
+        "timezone": "America/New_York",
+        "timeOfDay": "9:00 AM",
+        "dayOfMonth": "1"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "b2222222-2222-4222-8222-222222222201",
+      "valid": true,
+      "displayName": "AI — Generate Portfolio Summary",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.generate",
+        "input": {
+          "input": "",
+          "prompt": "You are a creative strategist reviewing a designer's portfolio. Generate a compelling, honest monthly portfolio narrative (3–4 paragraphs) that covers:\n\n1. The portfolio's overall positioning and strengths this month\n2. The range of work and how the case studies demonstrate strategic thinking, not just craft\n3. How the testimonials reinforce the portfolio's story\n4. The portfolio's most differentiating quality vs. typical designers in this space\n\nPortfolio highlights:\n- Projects: Luminary Brand Identity (branding, NYC studio, 47% more inbound), Vanta SaaS Dashboard (design system, 68%→12% abandonment), Orion Motion Rebrand (broadcast motion system), Bloom Botanicals UX (62% revenue growth)\n- Testimonials from: Luminary Creative Director, Vanta VP of Product, Orion Executive Producer, Bloom Botanicals Founder\n- Specializations: Brand Identity, Product Design, Motion Design, UX Research\n\nWrite with authority. This will be used to update the About section of the portfolio site."
+        }
+      }
+    },
+    {
+      "name": "b2222222-2222-4222-8222-222222222202",
+      "valid": true,
+      "displayName": "AI — Identify Next Improvements",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "{{ b2222222-2222-4222-8222-222222222201[\"result\"] }}",
+          "prompt": "You are a portfolio strategist and creative director coach. Based on this designer's current portfolio profile, generate 5 concrete, actionable improvements they should make in the next 30 days to strengthen their portfolio and attract better clients.\n\nCurrent portfolio:\n- 4 projects: branding, SaaS product design, motion, eCommerce UX\n- Strong results metrics\n- 4 strong testimonials\n- Operates primarily in NYC creative market\n\nFormat your response as a numbered list. Each item should have: what to do, why it matters, and how to execute it. Be specific, not generic."
+        }
+      }
+    },
+    {
+      "name": "b2222222-2222-4222-8222-222222222203",
+      "valid": true,
+      "displayName": "Save Summary to Portfolio Notes Project",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "project.create",
+        "input": {
+          "title": "Portfolio Monthly Refresh — {{ trigger[\"triggerTime\"] }}",
+          "content": "# Portfolio Summary\n\n{{ b2222222-2222-4222-8222-222222222201[\"result\"] }}\n\n---\n\n# Next 30-Day Improvements\n\n{{ b2222222-2222-4222-8222-222222222202[\"result\"] }}",
+          "defaultView": "list"
+        }
+      }
+    }
+  ]
+}

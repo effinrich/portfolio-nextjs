@@ -1,0 +1,493 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* ── Portfolio palette ── */
+  --obsidian: #0a0908;
+  --obsidian-2: #111010;
+  --obsidian-3: #1a1917;
+  --obsidian-4: #252422;
+  --obsidian-5: #302e2b;
+  --amber: #d4891a;
+  --amber-light: #e8a832;
+  --amber-dim: #8a5a0e;
+  --ivory: #f2ede4;
+  --ivory-dim: #c8c0b2;
+  --ivory-ghost: #7a7268;
+  --sienna: #9b4a1e;
+  --mist: rgba(242, 237, 228, 0.06);
+  --mist-2: rgba(242, 237, 228, 0.12);
+
+  --font-editorial: 'Playfair Display', Georgia, serif;
+  --font-mono: 'DM Mono', 'Courier New', monospace;
+  --font-sans: 'Instrument Sans', system-ui, sans-serif;
+
+  color-scheme: dark;
+
+  /* ── Tailwind semantic tokens → warm obsidian palette ──
+     All values are HSL without the hsl() wrapper (Tailwind convention).
+     These override the component library defaults so ai-elements
+     (message bubbles, prompt-input, suggestions) inherit the right colors.  */
+
+  /* Page background: deep obsidian */
+  --background: 20 14% 6%;
+  /* Card / panel surfaces */
+  --card: 20 12% 8%;
+  --card-foreground: 40 30% 92%;
+  /* Popover */
+  --popover: 20 12% 9%;
+  --popover-foreground: 40 30% 92%;
+  /* Primary action = amber */
+  --primary: 33 76% 46%;
+  --primary-foreground: 20 14% 6%;
+  /* Secondary surface = slightly lighter obsidian (user bubble) */
+  --secondary: 25 10% 16%;
+  --secondary-foreground: 40 25% 88%;
+  /* Muted / disabled */
+  --muted: 22 10% 14%;
+  --muted-foreground: 35 12% 52%;
+  /* Accent = amber-tinted glass */
+  --accent: 33 40% 18%;
+  --accent-foreground: 40 30% 92%;
+  /* Destructive */
+  --destructive: 0 60% 40%;
+  --destructive-foreground: 40 30% 92%;
+  /* Borders */
+  --border: 30 12% 18%;
+  --input: 25 10% 16%;
+  /* Ring = amber */
+  --ring: 33 76% 46%;
+  /* Foreground text */
+  --foreground: 40 30% 92%;
+  /* Border radius */
+  --radius: 0.25rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--obsidian);
+  color: var(--ivory);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-editorial);
+  letter-spacing: -0.01em;
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+/* Grain texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.4;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: var(--obsidian-2); }
+::-webkit-scrollbar-thumb { background: var(--obsidian-5); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--amber-dim); }
+
+/* Selection */
+::selection {
+  background: var(--amber);
+  color: var(--obsidian);
+}
+
+/* Amber accent line */
+.amber-line {
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--amber), transparent);
+}
+
+/* Keyframe animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes amberpulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes borderGlow {
+  0%, 100% { box-shadow: 0 0 0 0 transparent; }
+  50% { box-shadow: 0 0 20px 0 rgba(212, 137, 26, 0.15); }
+}
+
+/* Utility animations */
+.animate-fade-up { animation: fadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.animate-fade-in { animation: fadeIn 0.5s ease both; }
+.animate-slide-left { animation: slideInLeft 0.6s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.animate-amber-pulse { animation: amberpulse 2s ease-in-out infinite; }
+
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
+.delay-700 { animation-delay: 700ms; }
+.delay-800 { animation-delay: 800ms; }
+
+/* Marquee container */
+.marquee-outer {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.marquee-inner {
+  display: inline-flex;
+  animation: marquee 28s linear infinite;
+}
+.marquee-inner:hover { animation-play-state: paused; }
+
+/* Shimmer text */
+.shimmer-text {
+  background: linear-gradient(90deg, var(--ivory-dim) 25%, var(--amber) 50%, var(--ivory-dim) 75%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+/* Glass card */
+.glass-card {
+  background: var(--mist);
+  border: 1px solid var(--mist-2);
+  backdrop-filter: blur(12px);
+  transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.glass-card:hover {
+  background: rgba(242, 237, 228, 0.08);
+  border-color: rgba(212, 137, 26, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Chat panel styles */
+.chat-panel {
+  background: var(--obsidian-2);
+  border-left: 1px solid var(--mist-2);
+}
+
+.chat-message-user {
+  background: var(--obsidian-4);
+  border: 1px solid var(--mist-2);
+}
+.chat-message-agent {
+  background: linear-gradient(135deg, rgba(212, 137, 26, 0.08), rgba(155, 74, 30, 0.06));
+  border: 1px solid rgba(212, 137, 26, 0.15);
+}
+
+/* Nav */
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ivory-ghost);
+  text-decoration: none;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+.nav-link:hover, .nav-link.active {
+  color: var(--amber);
+}
+
+/* Project card hover effect */
+.project-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.project-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, var(--obsidian) 0%, transparent 60%);
+  transition: opacity 0.3s ease;
+}
+.project-card:hover::after {
+  opacity: 0.6;
+}
+.project-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.project-card:hover .project-card-img {
+  transform: scale(1.04);
+}
+
+/* Case study tag */
+.tag {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 2px;
+  background: rgba(212, 137, 26, 0.12);
+  color: var(--amber);
+  border: 1px solid rgba(212, 137, 26, 0.25);
+}
+
+/* Divider */
+.amber-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--amber-dim), transparent);
+}
+
+/* Input styles — scoped to portfolio forms only, not ai-elements */
+.portfolio-form input,
+.portfolio-form textarea,
+.portfolio-form select {
+  background: var(--obsidian-3) !important;
+  border: 1px solid var(--mist-2) !important;
+  color: var(--ivory) !important;
+  font-family: var(--font-sans) !important;
+  transition: border-color 0.2s ease !important;
+}
+.portfolio-form input:focus,
+.portfolio-form textarea:focus,
+.portfolio-form select:focus {
+  border-color: var(--amber-dim) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 1px var(--amber-dim) !important;
+}
+.portfolio-form input::placeholder,
+.portfolio-form textarea::placeholder {
+  color: var(--ivory-ghost) !important;
+}
+
+/* Button styles */
+.btn-amber {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--amber);
+  color: var(--obsidian);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.btn-amber:hover {
+  background: var(--amber-light);
+  color: var(--obsidian);
+  transform: translateY(-1px);
+}
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: var(--ivory-dim);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1;
+  padding: 10px 22px;
+  border: 1px solid var(--mist-2);
+  border-radius: 0;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+.btn-ghost:hover {
+  border-color: var(--amber-dim);
+  color: var(--ivory);
+  transform: translateY(-1px);
+}
+
+/* Section numbers */
+.section-number {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--amber);
+  letter-spacing: 0.2em;
+}
+
+/* Testimonial quote */
+.testimonial-quote {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--ivory-dim);
+}
+
+/* Form success */
+.form-success {
+  background: linear-gradient(135deg, rgba(212, 137, 26, 0.1), rgba(155, 74, 30, 0.08));
+  border: 1px solid rgba(212, 137, 26, 0.3);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+/* ── AI Elements accessibility overrides ──
+   Ensure warm-palette contrast for all chat components.
+   These sit below Tailwind token overrides as a safety net.          */
+
+/* User message bubble */
+[class*="is-user"] [class*="bg-secondary"] {
+  background-color: #2a2520 !important;
+  color: #f2ede4 !important;
+  border: 1px solid rgba(242, 237, 228, 0.1) !important;
+}
+
+/* Assistant prose text */
+[class*="is-assistant"] {
+  color: #c8c0b2 !important;
+}
+
+/* Streamdown rendered markdown */
+[class*="is-assistant"] p,
+[class*="is-assistant"] li,
+[class*="is-assistant"] span {
+  color: #c8c0b2;
+}
+[class*="is-assistant"] strong {
+  color: #f2ede4;
+}
+[class*="is-assistant"] a {
+  color: #d4891a;
+}
+[class*="is-assistant"] code {
+  background: rgba(212, 137, 26, 0.1);
+  color: #e8a832;
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+/* Prompt input textarea */
+[class*="InputGroup"] textarea,
+[class*="input-group"] textarea {
+  background: #1a1917 !important;
+  color: #f2ede4 !important;
+  border-color: rgba(242, 237, 228, 0.12) !important;
+}
+[class*="InputGroup"] textarea::placeholder,
+[class*="input-group"] textarea::placeholder {
+  color: #7a7268 !important;
+}
+[class*="InputGroup"] textarea:focus,
+[class*="input-group"] textarea:focus {
+  border-color: rgba(212, 137, 26, 0.4) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Prompt input container border */
+[class*="InputGroup"] {
+  border-color: rgba(242, 237, 228, 0.1) !important;
+  background: #141210 !important;
+}
+
+/* Suggestion pills */
+[class*="rounded-full"][class*="outline"] {
+  background: rgba(242, 237, 228, 0.04) !important;
+  border-color: rgba(242, 237, 228, 0.14) !important;
+  color: #c8c0b2 !important;
+}
+[class*="rounded-full"][class*="outline"]:hover {
+  background: rgba(212, 137, 26, 0.1) !important;
+  border-color: rgba(212, 137, 26, 0.35) !important;
+  color: #f2ede4 !important;
+}
+
+/* Submit button */
+[aria-label="Submit"],
+[type="submit"][class*="InputGroupButton"] {
+  background: var(--amber) !important;
+  color: #0a0908 !important;
+}
+[aria-label="Submit"]:hover,
+[type="submit"][class*="InputGroupButton"]:hover {
+  background: var(--amber-light) !important;
+}
+
+/* muted-foreground text in chat */
+.text-muted-foreground {
+  color: #7a7268 !important;
+}
+
+/* Tool call blocks */
+[class*="Tool"] {
+  background: rgba(212, 137, 26, 0.06) !important;
+  border: 1px solid rgba(212, 137, 26, 0.15) !important;
+  border-radius: 4px;
+}
+
+/* Ambient background */
+.ambient-bg {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 0%, rgba(212, 137, 26, 0.04) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(155, 74, 30, 0.04) 0%, transparent 70%);
+}

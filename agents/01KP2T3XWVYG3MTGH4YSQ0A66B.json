@@ -1,0 +1,46 @@
+{
+  "version": "1",
+  "name": "",
+  "commands": [],
+  "description": "",
+  "toolbox": [
+    {
+      "id": "01KP2T3W98YQ2MTA61ZD6XM3Z8",
+      "type": "openapi/action",
+      "config": {
+        "path": "DEFAULT",
+        "method": "GET",
+        "servers": [
+          {
+            "url": "https://www.taskade.com/api/v1"
+          }
+        ],
+        "description": "DEFAULT",
+        "operationId": "DEFAULT"
+      },
+      "enabled": true
+    },
+    {
+      "id": "user:01KP2T3W982EC0EGK9MGC8N293",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": "BLANK"
+      }
+    },
+    {
+      "id": "user:01KP2T3W98N08R8XD8BSVGGK00",
+      "type": "user/automation/action",
+      "enabled": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "web.search",
+        "pieceVersion": "BLANK"
+      }
+    }
+  ]
+}

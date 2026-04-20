@@ -1,0 +1,1012 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "c3d4e5f6-0003-4000-8000-000000000001",
+        "text": {
+          "ops": [
+            {
+              "insert": "Rich Tillman — Testimonials"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "330f5bdf-a7d4-416f-a81b-388a08b44825",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Engineering Lead — Redesign Health",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@test1": "Engineering Lead",
+              "@test2": "Redesign Health",
+              "@test3": "VP Engineering",
+              "@test4": "Rich didn't just build a design system — he changed how our engineering org operates. Two backend engineers went from zero React to shipping production components in a single month. That's not training, that's transformation. The skip-level promotion to Engineering Director was an easy call.",
+              "@test5": {
+                "type": "Select",
+                "optionId": "rat-5"
+              },
+              "@test6": "Redesign Health Design System",
+              "@test8": {
+                "type": "Select",
+                "optionId": "feat-yes"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "6e731461-e00c-430e-b776-87f9129adb9a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Senior Engineer — Pineapple Corporation",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@test1": "Senior Engineer",
+              "@test2": "Pineapple Corporation",
+              "@test3": "Engineering Manager",
+              "@test4": "Rich brought Storybook discipline to a codebase that desperately needed it. 60+ components, visual regression testing, stakeholder reviews accelerated by 50%. He also delivered 40 Figma components to production 2 weeks ahead of schedule. Every team he touches moves faster.",
+              "@test5": {
+                "type": "Select",
+                "optionId": "rat-5"
+              },
+              "@test6": "Pineapple Corporation Component Library",
+              "@test8": {
+                "type": "Select",
+                "optionId": "feat-yes"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "6ebeca49-3123-4ecd-be9e-9e9e83f953ef",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ForgeKit Community User",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@test1": "Frontend Engineer",
+              "@test2": "External Team (ForgeKit User)",
+              "@test3": "Senior Frontend Engineer",
+              "@test4": "forgekit-figma-mcp is the first tool that actually makes the Figma-to-React workflow feel native. It extracted our entire token system and generated typed Chakra UI config in minutes. What used to be a 2-day task is now a single AI-assisted command.",
+              "@test5": {
+                "type": "Select",
+                "optionId": "rat-5"
+              },
+              "@test6": "ForgeKit MCP Suite",
+              "@test8": {
+                "type": "Select",
+                "optionId": "feat-yes"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "b3138182-17d1-4185-af76-445bc9acc138",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Product Lead — PHC Global",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@test1": "Product Lead",
+              "@test2": "PHC Global",
+              "@test3": "Head of Product",
+              "@test4": "Rich set up our entire Nx monorepo foundation and delivered 5 core fintech modules on schedule. The infrastructure decisions he made reduced our costs 30% and got us to market 8 weeks early. He also improved NPS-measured user satisfaction by 35%.",
+              "@test5": {
+                "type": "Select",
+                "optionId": "rat-5"
+              },
+              "@test6": "PHC Global B2B Fintech Dashboard",
+              "@test8": {
+                "type": "Select",
+                "optionId": "feat-no"
+              }
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "fields": {
+      "@test1": {
+        "displayName": "Client Name",
+        "type": "string"
+      },
+      "@test2": {
+        "displayName": "Company",
+        "type": "string"
+      },
+      "@test3": {
+        "displayName": "Role",
+        "type": "string"
+      },
+      "@test4": {
+        "displayName": "Quote",
+        "type": "string"
+      },
+      "@test5": {
+        "displayName": "Rating",
+        "type": "Select",
+        "options": {
+          "rat-5": {
+            "id": "rat-5",
+            "name": "★★★★★",
+            "rank": "0",
+            "color": "#f59e0b"
+          },
+          "rat-4": {
+            "id": "rat-4",
+            "name": "★★★★☆",
+            "rank": "1",
+            "color": "#84cc16"
+          },
+          "rat-3": {
+            "id": "rat-3",
+            "name": "★★★☆☆",
+            "rank": "2",
+            "color": "#6b7280"
+          }
+        }
+      },
+      "@test6": {
+        "displayName": "Project Reference",
+        "type": "string"
+      },
+      "@test7": {
+        "displayName": "Avatar URL",
+        "type": "string"
+      },
+      "@test8": {
+        "displayName": "Featured",
+        "type": "Select",
+        "options": {
+          "feat-yes": {
+            "id": "feat-yes",
+            "name": "Featured",
+            "rank": "0",
+            "color": "#6366f1"
+          },
+          "feat-no": {
+            "id": "feat-no",
+            "name": "Standard",
+            "rank": "1",
+            "color": "#6b7280"
+          }
+        }
+      }
+    },
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@test1": {
+            "id": "/attributes/@test1",
+            "fieldPath": "/attributes/@test1",
+            "rank": "z"
+          },
+          "/attributes/@test2": {
+            "id": "/attributes/@test2",
+            "fieldPath": "/attributes/@test2",
+            "rank": "zV"
+          },
+          "/attributes/@test3": {
+            "id": "/attributes/@test3",
+            "fieldPath": "/attributes/@test3",
+            "rank": "zk"
+          },
+          "/attributes/@test4": {
+            "id": "/attributes/@test4",
+            "fieldPath": "/attributes/@test4",
+            "rank": "zs"
+          },
+          "/attributes/@test5": {
+            "id": "/attributes/@test5",
+            "fieldPath": "/attributes/@test5",
+            "rank": "zw"
+          },
+          "/attributes/@test6": {
+            "id": "/attributes/@test6",
+            "fieldPath": "/attributes/@test6",
+            "rank": "zy"
+          },
+          "/attributes/@test7": {
+            "id": "/attributes/@test7",
+            "fieldPath": "/attributes/@test7",
+            "rank": "zz"
+          },
+          "/attributes/@test8": {
+            "id": "/attributes/@test8",
+            "fieldPath": "/attributes/@test8",
+            "rank": "zzV"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@test1": {
+            "id": "/attributes/@test1",
+            "fieldPath": "/attributes/@test1",
+            "rank": "z"
+          },
+          "/attributes/@test2": {
+            "id": "/attributes/@test2",
+            "fieldPath": "/attributes/@test2",
+            "rank": "zV"
+          },
+          "/attributes/@test3": {
+            "id": "/attributes/@test3",
+            "fieldPath": "/attributes/@test3",
+            "rank": "zk"
+          },
+          "/attributes/@test4": {
+            "id": "/attributes/@test4",
+            "fieldPath": "/attributes/@test4",
+            "rank": "zs"
+          },
+          "/attributes/@test5": {
+            "id": "/attributes/@test5",
+            "fieldPath": "/attributes/@test5",
+            "rank": "zw"
+          },
+          "/attributes/@test6": {
+            "id": "/attributes/@test6",
+            "fieldPath": "/attributes/@test6",
+            "rank": "zy"
+          },
+          "/attributes/@test7": {
+            "id": "/attributes/@test7",
+            "fieldPath": "/attributes/@test7",
+            "rank": "zz"
+          },
+          "/attributes/@test8": {
+            "id": "/attributes/@test8",
+            "fieldPath": "/attributes/@test8",
+            "rank": "zzV"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@test1": {
+            "id": "/attributes/@test1",
+            "fieldPath": "/attributes/@test1",
+            "rank": "z"
+          },
+          "/attributes/@test2": {
+            "id": "/attributes/@test2",
+            "fieldPath": "/attributes/@test2",
+            "rank": "zV"
+          },
+          "/attributes/@test3": {
+            "id": "/attributes/@test3",
+            "fieldPath": "/attributes/@test3",
+            "rank": "zk"
+          },
+          "/attributes/@test4": {
+            "id": "/attributes/@test4",
+            "fieldPath": "/attributes/@test4",
+            "rank": "zs"
+          },
+          "/attributes/@test5": {
+            "id": "/attributes/@test5",
+            "fieldPath": "/attributes/@test5",
+            "rank": "zw"
+          },
+          "/attributes/@test6": {
+            "id": "/attributes/@test6",
+            "fieldPath": "/attributes/@test6",
+            "rank": "zy"
+          },
+          "/attributes/@test7": {
+            "id": "/attributes/@test7",
+            "fieldPath": "/attributes/@test7",
+            "rank": "zz"
+          },
+          "/attributes/@test8": {
+            "id": "/attributes/@test8",
+            "fieldPath": "/attributes/@test8",
+            "rank": "zzV"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@test1": {
+            "id": "/attributes/@test1",
+            "fieldPath": "/attributes/@test1",
+            "rank": "z"
+          },
+          "/attributes/@test2": {
+            "id": "/attributes/@test2",
+            "fieldPath": "/attributes/@test2",
+            "rank": "zV"
+          },
+          "/attributes/@test3": {
+            "id": "/attributes/@test3",
+            "fieldPath": "/attributes/@test3",
+            "rank": "zk"
+          },
+          "/attributes/@test4": {
+            "id": "/attributes/@test4",
+            "fieldPath": "/attributes/@test4",
+            "rank": "zs"
+          },
+          "/attributes/@test5": {
+            "id": "/attributes/@test5",
+            "fieldPath": "/attributes/@test5",
+            "rank": "zw"
+          },
+          "/attributes/@test6": {
+            "id": "/attributes/@test6",
+            "fieldPath": "/attributes/@test6",
+            "rank": "zy"
+          },
+          "/attributes/@test7": {
+            "id": "/attributes/@test7",
+            "fieldPath": "/attributes/@test7",
+            "rank": "zz"
+          },
+          "/attributes/@test8": {
+            "id": "/attributes/@test8",
+            "fieldPath": "/attributes/@test8",
+            "rank": "zzV"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@test1": {
+            "id": "/attributes/@test1",
+            "fieldPath": "/attributes/@test1",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@test2": {
+            "id": "/attributes/@test2",
+            "fieldPath": "/attributes/@test2",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@test3": {
+            "id": "/attributes/@test3",
+            "fieldPath": "/attributes/@test3",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@test4": {
+            "id": "/attributes/@test4",
+            "fieldPath": "/attributes/@test4",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@test5": {
+            "id": "/attributes/@test5",
+            "fieldPath": "/attributes/@test5",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@test6": {
+            "id": "/attributes/@test6",
+            "fieldPath": "/attributes/@test6",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@test7": {
+            "id": "/attributes/@test7",
+            "fieldPath": "/attributes/@test7",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@test8": {
+            "id": "/attributes/@test8",
+            "fieldPath": "/attributes/@test8",
+            "rank": "zzV",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@test1": {
+            "id": "/attributes/@test1",
+            "fieldPath": "/attributes/@test1",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@test2": {
+            "id": "/attributes/@test2",
+            "fieldPath": "/attributes/@test2",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@test3": {
+            "id": "/attributes/@test3",
+            "fieldPath": "/attributes/@test3",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@test4": {
+            "id": "/attributes/@test4",
+            "fieldPath": "/attributes/@test4",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@test5": {
+            "id": "/attributes/@test5",
+            "fieldPath": "/attributes/@test5",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@test6": {
+            "id": "/attributes/@test6",
+            "fieldPath": "/attributes/@test6",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@test7": {
+            "id": "/attributes/@test7",
+            "fieldPath": "/attributes/@test7",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@test8": {
+            "id": "/attributes/@test8",
+            "fieldPath": "/attributes/@test8",
+            "rank": "zzV",
+            "hidden": false
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "board",
+    "avatar": {
+      "type": "emoji",
+      "value": "🌐"
+    }
+  }
+}

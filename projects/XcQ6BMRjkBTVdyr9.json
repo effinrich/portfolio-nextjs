@@ -1,0 +1,1490 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "b2c3d4e5-0002-4000-8000-000000000001",
+        "text": {
+          "ops": [
+            {
+              "insert": "Rich Tillman — Case Studies"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "ef89cd1e-a6f7-4412-9903-c3e4e1f8ff5a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ForgeKit — Bridging Figma to React with MCP",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cs1": "ForgeKit",
+              "@cs2": "Self (ForgeKit)",
+              "@cs3": {
+                "type": "Select",
+                "optionId": "out-great"
+              },
+              "@cs4": "Design-to-code gap: Figma tokens drift from React implementation at every handoff. No automated, AI-native pipeline existed.",
+              "@cs5": "Two published MCP servers: forgekit-figma-mcp extracts Figma variables to typed theme configs; forgekit-storybook-mcp exposes Storybook metadata to AI coding agents. ForgeKit Core CLI scaffolds production Nx monorepos with Figma token sync built in.",
+              "@cs6": "5,703+ external npm installs. 3x faster component iteration. First publicly available Figma-to-React MCP servers.",
+              "@cs7": "MCP, Figma API, Storybook 8+, Nx, React, TypeScript, Chakra UI, shadcn, Tailwind, Claude Code, Cursor AI"
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "b78d2eed-c87b-42ff-940e-f1e1ded37e0a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "The design-to-code gap has been an unsolved problem for over a decade. Designers produce tokens and components in Figma; engineers rebuild them from scratch in React, inevitably drifting from the source of truth. Every handoff introduces drift. Every iteration creates divergence. The tools that existed required manual export pipelines, brittle scripts, or expensive platform lock-in.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a9acc5f8-1101-42c4-b158-2c68c84703f8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "ForgeKit introduces two MCP (Model Context Protocol) servers that integrate directly into AI coding agents like Claude Code and Cursor AI. forgekit-figma-mcp extracts Figma variables and design tokens programmatically, generating typed theme configs for Chakra UI, Tailwind, and shadcn. forgekit-storybook-mcp exposes Storybook metadata, argTypes, and usage patterns to AI agents — automating story generation and component testing workflows.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a89b9576-9fe9-4040-9026-d5e9e7156935",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "5,703+ external npm installs with active production adoption by external developer teams",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "042d5039-d25f-46e3-b8db-17ad343bcae8",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "First publicly available MCP servers purpose-built for the Figma-to-React design system workflow",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "481d4cfc-b866-42b0-a53a-fbf6144067c1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "3x faster component generation and iteration using AI tooling in ForgeKit-integrated repos",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "056b75fb-af67-4ef6-beee-85f77d53b87e",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Redesign Health — Engineering Director & Design System at Scale",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cs1": "Redesign Health Design System",
+              "@cs2": "Redesign Health",
+              "@cs3": {
+                "type": "Select",
+                "optionId": "out-great"
+              },
+              "@cs4": "No design system, no shared components, no testing, backend engineers writing React without architecture. 15+ engineers shipping inconsistently.",
+              "@cs5": "50+ component design system in Storybook. Chromatic visual regression. Custom onboarding methodology. 20+ optimized data-viz components. Skip-level promotion to Engineering Director.",
+              "@cs6": "30% dev time reduction, 40% rendering improvement, 2 engineers trained to production-level React in 1 month, skip-level promotion to Engineering Director.",
+              "@cs7": "React 18, TypeScript, Storybook, Chromatic, Zustand, Figma, custom hooks"
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "9220acc0-e1f2-4558-bd4f-2e493199e6d4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Redesign Health was building digital health startups at scale — multiple product teams, cross-functional squads, and a need for consistent UI across all surfaces. The existing frontend was ad-hoc: no design system, no shared component library, no visual regression testing. Backend engineers were being asked to write React. The org had 15+ engineers and no architectural direction.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "69254523-a57b-48a4-b9a0-2cdcea70887e",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Built a 50+ component React design system with Storybook as the living documentation layer. Implemented Chromatic visual regression testing — catching UI regressions pre-merge across all 3 teams. Engineered a proprietary onboarding methodology (Storybook + feature-based architecture + custom hooks) that trained 2 backend engineers to production React within 1 month. Optimized 20+ data-viz components with custom hooks and Zustand, achieving 40% reduction in rendering overhead. Double-promoted to Engineering Director managing 15+ engineers across 3 cross-functional teams.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "34cb8add-154d-494c-a626-d9388af3872a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "30% reduction in dev time across the 15-person org from shared component system",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "63631d4e-ede4-4215-9ff3-dee7d44f5cec",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "40% rendering overhead reduction on 20+ data-viz components",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "813da2a5-cf70-4b8d-af92-c56001779aed",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "2 backend engineers trained to production-level React and Storybook within 1 month",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "0a5f4893-b595-47de-bd30-e8a940031138",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Double-promoted (skip-level) to Engineering Director",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "193cb37d-36c2-408b-b11b-eeeb9f74ddc2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Freebird — 200-Component Library Before Storybook Was Mainstream",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cs1": "Freebird UI Library",
+              "@cs2": "Freebird",
+              "@cs3": {
+                "type": "Select",
+                "optionId": "out-great"
+              },
+              "@cs4": "Needed one UI system for B2B, B2C, and mobile (React Native) without separate iOS/Android engineering teams. Storybook had just launched with no established patterns.",
+              "@cs5": "200-component library built with Storybook from 2016. Extended to React Native to unify mobile and web. In-person UX research at 300+ restaurant locations.",
+              "@cs6": "Eliminated separate iOS/Android teams. 20% user satisfaction lift. One of the earliest Storybook-backed production UI libraries.",
+              "@cs7": "React, React Native, Storybook (2016), NestJS, TypeScript"
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "cf77f32a-4866-437f-80f1-278b00cadecd",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "In 2016, Storybook was brand new. Component-driven development wasn't a standard practice — most teams shipped monolithic apps with no isolation layer. Freebird needed a UI system that could power B2B dashboards, a B2C consumer app, and a React Native mobile product without separate iOS and Android teams.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "bd4bbd5d-633e-4347-8606-dc1a447f4753",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Built one of the earliest production React UI libraries backed by Storybook — 200 components shared across B2B, B2C, and React Native targets. By extending the library to React Native, eliminated the need for separate iOS and Android engineering teams entirely. Conducted in-person UX research at 300+ partner restaurant locations to continuously validate the product. Served as design-engineering liaison in sales, client, and marketing conversations.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "20c20037-8ce4-42dc-b8cb-a6f3f5b613fb",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "200+ components supporting B2B, B2C, and React Native from a single library",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "3fdecac6-a5c8-4511-b085-f21c89942a84",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Eliminated separate iOS/Android teams — directly reducing engineering headcount costs",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "d2bead5e-a4f5-4658-9898-c84cc20ba9ca",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "20% user satisfaction lift from in-person UX research at 300+ locations",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "3e480dfb-f9a4-42c5-aa1e-91f4ef89abc8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "NARS Cosmetics — $400K/mo Revenue via Web AR",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@cs1": "NARS Cosmetics Web AR",
+              "@cs2": "FaceCake Marketing Technologies / NARS Cosmetics",
+              "@cs3": {
+                "type": "Select",
+                "optionId": "out-great"
+              },
+              "@cs4": "Browser-based AR didn't exist as a mature technology. NARS needed a virtual try-on that would convert online shoppers at scale.",
+              "@cs5": "Web AR makeup try-on app using computer vision + JavaScript. Firebase CMS for NARS team. 6-month campaign from concept to shipped.",
+              "@cs6": "$400,000/month revenue uplift. One of the first browser-based AR apps in production commerce.",
+              "@cs7": "JavaScript, Computer Vision, Firebase, HTML5 Canvas, CSS3"
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "fa0bdb9a-6423-48b8-b848-55ce11f575d9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "In 2015, browser-based augmented reality was a frontier technology. No established frameworks existed for web AR. NARS Cosmetics wanted a virtual try-on experience that would convert online browsers into buyers — a problem no one had solved at scale in the browser.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "914db924-137a-4f4f-911b-17b2070fb011",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Led the build of a web AR makeup try-on application using computer vision techniques and JavaScript — one of the earliest browser-based AR apps in production. Built a Firebase-powered CMS for the NARS internal team. Collaborated directly with design and product to ship a 6-month campaign that measurably moved revenue.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "c0260a04-2c08-4e8d-9688-5d359921dfb2",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "$400,000/month revenue uplift directly attributable to the AR try-on campaign",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "a936f153-340d-4ba8-8667-5036e97680ae",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "One of the earliest production browser-based AR applications using computer vision",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fields": {
+      "@cs1": {
+        "displayName": "Project Name",
+        "type": "string"
+      },
+      "@cs2": {
+        "displayName": "Client",
+        "type": "string"
+      },
+      "@cs3": {
+        "displayName": "Outcome",
+        "type": "Select",
+        "options": {
+          "out-great": {
+            "id": "out-great",
+            "name": "Exceeded Goals",
+            "rank": "0",
+            "color": "#10b981"
+          },
+          "out-met": {
+            "id": "out-met",
+            "name": "Met Goals",
+            "rank": "1",
+            "color": "#3b82f6"
+          },
+          "out-learning": {
+            "id": "out-learning",
+            "name": "Key Learning",
+            "rank": "2",
+            "color": "#f59e0b"
+          }
+        }
+      },
+      "@cs4": {
+        "displayName": "Challenge",
+        "type": "string"
+      },
+      "@cs5": {
+        "displayName": "Solution",
+        "type": "string"
+      },
+      "@cs6": {
+        "displayName": "Results",
+        "type": "string"
+      },
+      "@cs7": {
+        "displayName": "Tools Used",
+        "type": "string"
+      },
+      "@cs8": {
+        "type": "DateTime",
+        "title": "Published Date"
+      }
+    },
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cs1": {
+            "id": "/attributes/@cs1",
+            "fieldPath": "/attributes/@cs1",
+            "rank": "z"
+          },
+          "/attributes/@cs2": {
+            "id": "/attributes/@cs2",
+            "fieldPath": "/attributes/@cs2",
+            "rank": "zV"
+          },
+          "/attributes/@cs3": {
+            "id": "/attributes/@cs3",
+            "fieldPath": "/attributes/@cs3",
+            "rank": "zk"
+          },
+          "/attributes/@cs4": {
+            "id": "/attributes/@cs4",
+            "fieldPath": "/attributes/@cs4",
+            "rank": "zs"
+          },
+          "/attributes/@cs5": {
+            "id": "/attributes/@cs5",
+            "fieldPath": "/attributes/@cs5",
+            "rank": "zw"
+          },
+          "/attributes/@cs6": {
+            "id": "/attributes/@cs6",
+            "fieldPath": "/attributes/@cs6",
+            "rank": "zy"
+          },
+          "/attributes/@cs7": {
+            "id": "/attributes/@cs7",
+            "fieldPath": "/attributes/@cs7",
+            "rank": "zz"
+          },
+          "/attributes/@cs8": {
+            "id": "/attributes/@cs8",
+            "fieldPath": "/attributes/@cs8",
+            "rank": "zzV"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cs1": {
+            "id": "/attributes/@cs1",
+            "fieldPath": "/attributes/@cs1",
+            "rank": "z"
+          },
+          "/attributes/@cs2": {
+            "id": "/attributes/@cs2",
+            "fieldPath": "/attributes/@cs2",
+            "rank": "zV"
+          },
+          "/attributes/@cs3": {
+            "id": "/attributes/@cs3",
+            "fieldPath": "/attributes/@cs3",
+            "rank": "zk"
+          },
+          "/attributes/@cs4": {
+            "id": "/attributes/@cs4",
+            "fieldPath": "/attributes/@cs4",
+            "rank": "zs"
+          },
+          "/attributes/@cs5": {
+            "id": "/attributes/@cs5",
+            "fieldPath": "/attributes/@cs5",
+            "rank": "zw"
+          },
+          "/attributes/@cs6": {
+            "id": "/attributes/@cs6",
+            "fieldPath": "/attributes/@cs6",
+            "rank": "zy"
+          },
+          "/attributes/@cs7": {
+            "id": "/attributes/@cs7",
+            "fieldPath": "/attributes/@cs7",
+            "rank": "zz"
+          },
+          "/attributes/@cs8": {
+            "id": "/attributes/@cs8",
+            "fieldPath": "/attributes/@cs8",
+            "rank": "zzV"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cs1": {
+            "id": "/attributes/@cs1",
+            "fieldPath": "/attributes/@cs1",
+            "rank": "z"
+          },
+          "/attributes/@cs2": {
+            "id": "/attributes/@cs2",
+            "fieldPath": "/attributes/@cs2",
+            "rank": "zV"
+          },
+          "/attributes/@cs3": {
+            "id": "/attributes/@cs3",
+            "fieldPath": "/attributes/@cs3",
+            "rank": "zk"
+          },
+          "/attributes/@cs4": {
+            "id": "/attributes/@cs4",
+            "fieldPath": "/attributes/@cs4",
+            "rank": "zs"
+          },
+          "/attributes/@cs5": {
+            "id": "/attributes/@cs5",
+            "fieldPath": "/attributes/@cs5",
+            "rank": "zw"
+          },
+          "/attributes/@cs6": {
+            "id": "/attributes/@cs6",
+            "fieldPath": "/attributes/@cs6",
+            "rank": "zy"
+          },
+          "/attributes/@cs7": {
+            "id": "/attributes/@cs7",
+            "fieldPath": "/attributes/@cs7",
+            "rank": "zz"
+          },
+          "/attributes/@cs8": {
+            "id": "/attributes/@cs8",
+            "fieldPath": "/attributes/@cs8",
+            "rank": "zzV"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@cs1": {
+            "id": "/attributes/@cs1",
+            "fieldPath": "/attributes/@cs1",
+            "rank": "z"
+          },
+          "/attributes/@cs2": {
+            "id": "/attributes/@cs2",
+            "fieldPath": "/attributes/@cs2",
+            "rank": "zV"
+          },
+          "/attributes/@cs3": {
+            "id": "/attributes/@cs3",
+            "fieldPath": "/attributes/@cs3",
+            "rank": "zk"
+          },
+          "/attributes/@cs4": {
+            "id": "/attributes/@cs4",
+            "fieldPath": "/attributes/@cs4",
+            "rank": "zs"
+          },
+          "/attributes/@cs5": {
+            "id": "/attributes/@cs5",
+            "fieldPath": "/attributes/@cs5",
+            "rank": "zw"
+          },
+          "/attributes/@cs6": {
+            "id": "/attributes/@cs6",
+            "fieldPath": "/attributes/@cs6",
+            "rank": "zy"
+          },
+          "/attributes/@cs7": {
+            "id": "/attributes/@cs7",
+            "fieldPath": "/attributes/@cs7",
+            "rank": "zz"
+          },
+          "/attributes/@cs8": {
+            "id": "/attributes/@cs8",
+            "fieldPath": "/attributes/@cs8",
+            "rank": "zzV"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cs1": {
+            "id": "/attributes/@cs1",
+            "fieldPath": "/attributes/@cs1",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cs2": {
+            "id": "/attributes/@cs2",
+            "fieldPath": "/attributes/@cs2",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cs3": {
+            "id": "/attributes/@cs3",
+            "fieldPath": "/attributes/@cs3",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cs4": {
+            "id": "/attributes/@cs4",
+            "fieldPath": "/attributes/@cs4",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@cs5": {
+            "id": "/attributes/@cs5",
+            "fieldPath": "/attributes/@cs5",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cs6": {
+            "id": "/attributes/@cs6",
+            "fieldPath": "/attributes/@cs6",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@cs7": {
+            "id": "/attributes/@cs7",
+            "fieldPath": "/attributes/@cs7",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@cs8": {
+            "id": "/attributes/@cs8",
+            "fieldPath": "/attributes/@cs8",
+            "rank": "zzV",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@cs1": {
+            "id": "/attributes/@cs1",
+            "fieldPath": "/attributes/@cs1",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@cs2": {
+            "id": "/attributes/@cs2",
+            "fieldPath": "/attributes/@cs2",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@cs3": {
+            "id": "/attributes/@cs3",
+            "fieldPath": "/attributes/@cs3",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cs4": {
+            "id": "/attributes/@cs4",
+            "fieldPath": "/attributes/@cs4",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@cs5": {
+            "id": "/attributes/@cs5",
+            "fieldPath": "/attributes/@cs5",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@cs6": {
+            "id": "/attributes/@cs6",
+            "fieldPath": "/attributes/@cs6",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@cs7": {
+            "id": "/attributes/@cs7",
+            "fieldPath": "/attributes/@cs7",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@cs8": {
+            "id": "/attributes/@cs8",
+            "fieldPath": "/attributes/@cs8",
+            "rank": "zzV",
+            "hidden": false
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "📖"
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "version": "2",
+  "flowTitle": "Inquiry Form → Create Lead & Notify",
+  "trigger": {
+    "valid": true,
+    "type": "WEBHOOK",
+    "settings": {
+      "input": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Input for name"
+          },
+          "email": {
+            "type": "string",
+            "description": "Input for email"
+          },
+          "budget": {
+            "type": "string",
+            "description": "Input for budget"
+          },
+          "company": {
+            "type": "string",
+            "description": "Input for company"
+          },
+          "message": {
+            "type": "string",
+            "description": "Input for message"
+          },
+          "project_type": {
+            "type": "string",
+            "description": "Input for project_type"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "a1111111-1111-4111-8111-111111111101",
+      "valid": true,
+      "displayName": "AI — Qualify & Summarize Lead",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "",
+          "prompt": "You are a creative director's assistant. A new project inquiry just came in. Analyze it and write a concise 2-3 sentence lead qualification summary. Assess: seriousness of the inquiry, budget alignment, project type fit, and any red or green flags. End with a recommendation: HOT LEAD, WARM LEAD, or COOL LEAD.\n\nInquiry details:\nName: {{ trigger[\"body\"][\"name\"] }}\nEmail: {{ trigger[\"body\"][\"email\"] }}\nCompany: {{ trigger[\"body\"][\"company\"] }}\nProject Type: {{ trigger[\"body\"][\"project_type\"] }}\nBudget: {{ trigger[\"body\"][\"budget\"] }}\nMessage: {{ trigger[\"body\"][\"message\"] }}"
+        }
+      }
+    },
+    {
+      "name": "a1111111-1111-4111-8111-111111111102",
+      "valid": false,
+      "displayName": "Create Lead in Inquiries",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@inq1": {
+              "data": {
+                "value": "{{ trigger[\"body\"][\"name\"] }}"
+              },
+              "rank": "0",
+              "fieldId": "@inq1"
+            },
+            "@inq2": {
+              "data": {
+                "value": "{{ trigger[\"body\"][\"email\"] }}"
+              },
+              "rank": "1",
+              "fieldId": "@inq2"
+            },
+            "@inq3": {
+              "data": {
+                "value": "{{ trigger[\"body\"][\"company\"] }}"
+              },
+              "rank": "2",
+              "fieldId": "@inq3"
+            },
+            "@inq5": {
+              "data": {
+                "value": "{{ trigger[\"body\"][\"budget\"] }}"
+              },
+              "rank": "3",
+              "fieldId": "@inq5"
+            },
+            "@inq6": {
+              "data": {
+                "value": "{{ trigger[\"body\"][\"message\"] }}"
+              },
+              "rank": "4",
+              "fieldId": "@inq6"
+            },
+            "@inq7": {
+              "data": {
+                "value": "inq-new"
+              },
+              "rank": "5",
+              "fieldId": "@inq7"
+            }
+          },
+          "content": "{{ trigger[\"body\"][\"name\"] }} — {{ trigger[\"body\"][\"company\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "PD6tfM5XnBK3XLzD"
+          }
+        }
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "type": "http_response",
+      "body": {
+        "type": "json",
+        "data": {
+          "type": "basic",
+          "payload": [
+            {
+              "status": "success"
+            },
+            {
+              "message": "Thank you {{ trigger[\"body\"][\"name\"] }}! Your inquiry has been received. We'll be in touch within 48 hours."
+            },
+            {
+              "qualification": "{{ a1111111-1111-4111-8111-111111111101[\"result\"] }}"
+            }
+          ]
+        }
+      },
+      "key": "trigger"
+    }
+  ],
+  "variables": {
+    "PD6tfM5XnBK3XLzD": {
+      "id": "PD6tfM5XnBK3XLzD",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

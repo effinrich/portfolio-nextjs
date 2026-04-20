@@ -1,0 +1,1142 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a1b2c3d4-0001-4000-8000-000000000001",
+        "text": {
+          "ops": [
+            {
+              "insert": "Rich Tillman — Projects"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "f1000001-aaaa-4000-8000-000000000001",
+            "text": {
+              "ops": [
+                {
+                  "insert": "ForgeKit — MCP-Driven Design System Suite",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@proj1": "ForgeKit (Self)",
+              "@proj2": "Founder & Principal Engineer",
+              "@proj3": {
+                "type": "Select",
+                "optionId": "cat-dev"
+              },
+              "@proj4": "https://forgekit.cloud",
+              "@proj5": {
+                "type": "Select",
+                "optionId": "stat-live"
+              },
+              "@proj8": "MCP, Figma, React, Storybook, AI tooling, npm",
+              "@proj9": "Published MCP servers (5,703+ npm installs) bridging Figma design tokens to production React — forgekit-figma-mcp and forgekit-storybook-mcp."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f1000001-aaaa-4000-8000-000000000002",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Redesign Health — 50-Component Design System",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@proj1": "Redesign Health",
+              "@proj2": "Engineering Director / Staff Frontend Engineer",
+              "@proj3": {
+                "type": "Select",
+                "optionId": "cat-dev"
+              },
+              "@proj5": {
+                "type": "Select",
+                "optionId": "stat-live"
+              },
+              "@proj8": "React, Storybook, Chromatic, TypeScript, Zustand, design system",
+              "@proj9": "50+ reusable React components with Storybook — cut dev time 30% across a 15-person org. 20+ data-viz components with 40% rendering overhead reduction."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f1000001-aaaa-4000-8000-000000000003",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Freebird — 200-Component React + React Native UI Library",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@proj1": "Freebird",
+              "@proj2": "Lead Frontend Engineer",
+              "@proj3": {
+                "type": "Select",
+                "optionId": "cat-dev"
+              },
+              "@proj5": {
+                "type": "Select",
+                "optionId": "stat-live"
+              },
+              "@proj8": "React, React Native, Storybook, B2B, B2C, cross-platform",
+              "@proj9": "One of the earliest production React UI libraries backed by Storybook (2016). 200 components supporting B2B, B2C, and React Native — eliminated separate iOS/Android teams."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f1000001-aaaa-4000-8000-000000000004",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Verizon / Boston College — Full-Stack Edtech Platform",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@proj1": "Verizon",
+              "@proj2": "Principal Engineer",
+              "@proj3": {
+                "type": "Select",
+                "optionId": "cat-dev"
+              },
+              "@proj5": {
+                "type": "Select",
+                "optionId": "stat-live"
+              },
+              "@proj8": "React, Nx monorepo, Ark UI, MCP, TypeScript, Storybook, AWS, PostgreSQL",
+              "@proj9": "Full-stack edtech platform for Boston College with Ark UI MCP integration — an early enterprise MCP adopter. WCAG a11y testing baked into CI/CD."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f1000001-aaaa-4000-8000-000000000005",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Tidy App — ADHD-Friendly React Native Home Management",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@proj1": "Self",
+              "@proj2": "Sole Engineer",
+              "@proj3": {
+                "type": "Select",
+                "optionId": "cat-ux"
+              },
+              "@proj4": "https://testflight.apple.com",
+              "@proj5": {
+                "type": "Select",
+                "optionId": "stat-wip"
+              },
+              "@proj8": "React Native, Expo, Gluestack UI, NativeWind, Zustand, Supabase, RevenueCat",
+              "@proj9": "Offline-first, accessibility-first home management app designed for neurodivergent users. Figma Code Connect integration with 20-component ADHD design principle annotations."
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "f1000001-aaaa-4000-8000-000000000006",
+            "text": {
+              "ops": [
+                {
+                  "insert": "NARS Cosmetics — Web AR Try-On ($400K/mo Revenue)",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@proj1": "FaceCake / NARS Cosmetics",
+              "@proj2": "Lead Web Developer",
+              "@proj3": {
+                "type": "Select",
+                "optionId": "cat-dev"
+              },
+              "@proj5": {
+                "type": "Select",
+                "optionId": "stat-arch"
+              },
+              "@proj8": "AR, computer vision, JavaScript, Firebase, CMS",
+              "@proj9": "Web AR makeup try-on app that lifted NARS Cosmetics monthly revenue by $400K. Firebase-powered CMS. One of the earliest browser-based AR applications in production."
+            },
+            "children": []
+          }
+        ]
+      }
+    ],
+    "fields": {
+      "@proj1": {
+        "displayName": "Client",
+        "type": "string"
+      },
+      "@proj2": {
+        "displayName": "Role",
+        "type": "string"
+      },
+      "@proj3": {
+        "displayName": "Category",
+        "type": "Select",
+        "options": {
+          "cat-web": {
+            "id": "cat-web",
+            "name": "Web Design",
+            "rank": "0",
+            "color": "#6366f1"
+          },
+          "cat-brand": {
+            "id": "cat-brand",
+            "name": "Branding",
+            "rank": "1",
+            "color": "#f59e0b"
+          },
+          "cat-motion": {
+            "id": "cat-motion",
+            "name": "Motion",
+            "rank": "2",
+            "color": "#10b981"
+          },
+          "cat-dev": {
+            "id": "cat-dev",
+            "name": "Development",
+            "rank": "3",
+            "color": "#3b82f6"
+          },
+          "cat-ux": {
+            "id": "cat-ux",
+            "name": "UX Research",
+            "rank": "4",
+            "color": "#ec4899"
+          }
+        }
+      },
+      "@proj4": {
+        "displayName": "Live URL",
+        "type": "string"
+      },
+      "@proj5": {
+        "displayName": "Status",
+        "type": "Select",
+        "options": {
+          "stat-live": {
+            "id": "stat-live",
+            "name": "Live",
+            "rank": "0",
+            "color": "#10b981"
+          },
+          "stat-wip": {
+            "id": "stat-wip",
+            "name": "In Progress",
+            "rank": "1",
+            "color": "#f59e0b"
+          },
+          "stat-arch": {
+            "id": "stat-arch",
+            "name": "Archived",
+            "rank": "2",
+            "color": "#6b7280"
+          }
+        }
+      },
+      "@proj6": {
+        "type": "DateTime",
+        "title": "Completed Date"
+      },
+      "@proj7": {
+        "displayName": "Cover Image URL",
+        "type": "string"
+      },
+      "@proj8": {
+        "displayName": "Tags",
+        "type": "string"
+      },
+      "@proj9": {
+        "displayName": "Short Description",
+        "type": "string"
+      }
+    },
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@proj1": {
+            "id": "/attributes/@proj1",
+            "fieldPath": "/attributes/@proj1",
+            "rank": "z"
+          },
+          "/attributes/@proj2": {
+            "id": "/attributes/@proj2",
+            "fieldPath": "/attributes/@proj2",
+            "rank": "zV"
+          },
+          "/attributes/@proj3": {
+            "id": "/attributes/@proj3",
+            "fieldPath": "/attributes/@proj3",
+            "rank": "zk"
+          },
+          "/attributes/@proj4": {
+            "id": "/attributes/@proj4",
+            "fieldPath": "/attributes/@proj4",
+            "rank": "zs"
+          },
+          "/attributes/@proj5": {
+            "id": "/attributes/@proj5",
+            "fieldPath": "/attributes/@proj5",
+            "rank": "zw"
+          },
+          "/attributes/@proj6": {
+            "id": "/attributes/@proj6",
+            "fieldPath": "/attributes/@proj6",
+            "rank": "zy"
+          },
+          "/attributes/@proj7": {
+            "id": "/attributes/@proj7",
+            "fieldPath": "/attributes/@proj7",
+            "rank": "zz"
+          },
+          "/attributes/@proj8": {
+            "id": "/attributes/@proj8",
+            "fieldPath": "/attributes/@proj8",
+            "rank": "zzV"
+          },
+          "/attributes/@proj9": {
+            "id": "/attributes/@proj9",
+            "fieldPath": "/attributes/@proj9",
+            "rank": "zzk"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@proj1": {
+            "id": "/attributes/@proj1",
+            "fieldPath": "/attributes/@proj1",
+            "rank": "z"
+          },
+          "/attributes/@proj2": {
+            "id": "/attributes/@proj2",
+            "fieldPath": "/attributes/@proj2",
+            "rank": "zV"
+          },
+          "/attributes/@proj3": {
+            "id": "/attributes/@proj3",
+            "fieldPath": "/attributes/@proj3",
+            "rank": "zk"
+          },
+          "/attributes/@proj4": {
+            "id": "/attributes/@proj4",
+            "fieldPath": "/attributes/@proj4",
+            "rank": "zs"
+          },
+          "/attributes/@proj5": {
+            "id": "/attributes/@proj5",
+            "fieldPath": "/attributes/@proj5",
+            "rank": "zw"
+          },
+          "/attributes/@proj6": {
+            "id": "/attributes/@proj6",
+            "fieldPath": "/attributes/@proj6",
+            "rank": "zy"
+          },
+          "/attributes/@proj7": {
+            "id": "/attributes/@proj7",
+            "fieldPath": "/attributes/@proj7",
+            "rank": "zz"
+          },
+          "/attributes/@proj8": {
+            "id": "/attributes/@proj8",
+            "fieldPath": "/attributes/@proj8",
+            "rank": "zzV"
+          },
+          "/attributes/@proj9": {
+            "id": "/attributes/@proj9",
+            "fieldPath": "/attributes/@proj9",
+            "rank": "zzk"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@proj1": {
+            "id": "/attributes/@proj1",
+            "fieldPath": "/attributes/@proj1",
+            "rank": "z"
+          },
+          "/attributes/@proj2": {
+            "id": "/attributes/@proj2",
+            "fieldPath": "/attributes/@proj2",
+            "rank": "zV"
+          },
+          "/attributes/@proj3": {
+            "id": "/attributes/@proj3",
+            "fieldPath": "/attributes/@proj3",
+            "rank": "zk"
+          },
+          "/attributes/@proj4": {
+            "id": "/attributes/@proj4",
+            "fieldPath": "/attributes/@proj4",
+            "rank": "zs"
+          },
+          "/attributes/@proj5": {
+            "id": "/attributes/@proj5",
+            "fieldPath": "/attributes/@proj5",
+            "rank": "zw"
+          },
+          "/attributes/@proj6": {
+            "id": "/attributes/@proj6",
+            "fieldPath": "/attributes/@proj6",
+            "rank": "zy"
+          },
+          "/attributes/@proj7": {
+            "id": "/attributes/@proj7",
+            "fieldPath": "/attributes/@proj7",
+            "rank": "zz"
+          },
+          "/attributes/@proj8": {
+            "id": "/attributes/@proj8",
+            "fieldPath": "/attributes/@proj8",
+            "rank": "zzV"
+          },
+          "/attributes/@proj9": {
+            "id": "/attributes/@proj9",
+            "fieldPath": "/attributes/@proj9",
+            "rank": "zzk"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@proj1": {
+            "id": "/attributes/@proj1",
+            "fieldPath": "/attributes/@proj1",
+            "rank": "z"
+          },
+          "/attributes/@proj2": {
+            "id": "/attributes/@proj2",
+            "fieldPath": "/attributes/@proj2",
+            "rank": "zV"
+          },
+          "/attributes/@proj3": {
+            "id": "/attributes/@proj3",
+            "fieldPath": "/attributes/@proj3",
+            "rank": "zk"
+          },
+          "/attributes/@proj4": {
+            "id": "/attributes/@proj4",
+            "fieldPath": "/attributes/@proj4",
+            "rank": "zs"
+          },
+          "/attributes/@proj5": {
+            "id": "/attributes/@proj5",
+            "fieldPath": "/attributes/@proj5",
+            "rank": "zw"
+          },
+          "/attributes/@proj6": {
+            "id": "/attributes/@proj6",
+            "fieldPath": "/attributes/@proj6",
+            "rank": "zy"
+          },
+          "/attributes/@proj7": {
+            "id": "/attributes/@proj7",
+            "fieldPath": "/attributes/@proj7",
+            "rank": "zz"
+          },
+          "/attributes/@proj8": {
+            "id": "/attributes/@proj8",
+            "fieldPath": "/attributes/@proj8",
+            "rank": "zzV"
+          },
+          "/attributes/@proj9": {
+            "id": "/attributes/@proj9",
+            "fieldPath": "/attributes/@proj9",
+            "rank": "zzk"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@proj1": {
+            "id": "/attributes/@proj1",
+            "fieldPath": "/attributes/@proj1",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@proj2": {
+            "id": "/attributes/@proj2",
+            "fieldPath": "/attributes/@proj2",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@proj3": {
+            "id": "/attributes/@proj3",
+            "fieldPath": "/attributes/@proj3",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@proj4": {
+            "id": "/attributes/@proj4",
+            "fieldPath": "/attributes/@proj4",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@proj5": {
+            "id": "/attributes/@proj5",
+            "fieldPath": "/attributes/@proj5",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@proj6": {
+            "id": "/attributes/@proj6",
+            "fieldPath": "/attributes/@proj6",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@proj7": {
+            "id": "/attributes/@proj7",
+            "fieldPath": "/attributes/@proj7",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@proj8": {
+            "id": "/attributes/@proj8",
+            "fieldPath": "/attributes/@proj8",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@proj9": {
+            "id": "/attributes/@proj9",
+            "fieldPath": "/attributes/@proj9",
+            "rank": "zzk",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@proj1": {
+            "id": "/attributes/@proj1",
+            "fieldPath": "/attributes/@proj1",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@proj2": {
+            "id": "/attributes/@proj2",
+            "fieldPath": "/attributes/@proj2",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@proj3": {
+            "id": "/attributes/@proj3",
+            "fieldPath": "/attributes/@proj3",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@proj4": {
+            "id": "/attributes/@proj4",
+            "fieldPath": "/attributes/@proj4",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@proj5": {
+            "id": "/attributes/@proj5",
+            "fieldPath": "/attributes/@proj5",
+            "rank": "zw",
+            "hidden": false
+          },
+          "/attributes/@proj6": {
+            "id": "/attributes/@proj6",
+            "fieldPath": "/attributes/@proj6",
+            "rank": "zy",
+            "hidden": false
+          },
+          "/attributes/@proj7": {
+            "id": "/attributes/@proj7",
+            "fieldPath": "/attributes/@proj7",
+            "rank": "zz",
+            "hidden": false
+          },
+          "/attributes/@proj8": {
+            "id": "/attributes/@proj8",
+            "fieldPath": "/attributes/@proj8",
+            "rank": "zzV",
+            "hidden": false
+          },
+          "/attributes/@proj9": {
+            "id": "/attributes/@proj9",
+            "fieldPath": "/attributes/@proj9",
+            "rank": "zzk",
+            "hidden": false
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "🌐"
+    }
+  }
+}

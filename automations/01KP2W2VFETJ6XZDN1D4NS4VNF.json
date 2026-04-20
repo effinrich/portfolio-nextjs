@@ -1,0 +1,41 @@
+{
+  "version": "2",
+  "flowTitle": "",
+  "trigger": {
+    "valid": true,
+    "displayName": "Task Due",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-taskade",
+      "pieceVersion": "BLANK",
+      "triggerName": "task.due",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "3411d4b4-7eb4-4cc2-89e8-d50b5074abf8",
+      "valid": false,
+      "displayName": "Ask AI",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "ai.ask",
+        "input": {}
+      }
+    },
+    {
+      "name": "f31b2078-75b4-497c-bc10-6a47be3f051c",
+      "valid": false,
+      "displayName": "Add Task",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "task.create",
+        "input": {}
+      }
+    }
+  ]
+}

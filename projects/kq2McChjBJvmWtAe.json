@@ -1,0 +1,339 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "50b32133-a7e1-407b-a9e0-4b899c16f0ae",
+        "text": {
+          "ops": [
+            {
+              "insert": "Portfolio Genesis App — Build Memory"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "c870dbb4-1ccf-4680-b4da-5875694afcb0",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Project IDs",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": [
+              {
+                "type": "text",
+                "id": "7677a71e-904f-4681-82de-68f58e14061d",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Projects: RBS7UKDqLhPJnwzq",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "ac385ec7-8fed-4d8b-8034-369da913633a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Case Studies: XcQ6BMRjkBTVdyr9",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9c4f6512-d5d9-4435-acaa-786c6cd9526c",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Testimonials: FetNZLqBgCe6HU1a",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "068bd551-3d3c-4cfa-a0e6-9ac3829da881",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Inquiries: PD6tfM5XnBK3XLzD",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "08200930-347a-44ed-ba8c-eff791df436a",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Agent & Workflows",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": [
+              {
+                "type": "text",
+                "id": "f3cf8561-25ad-43e9-a6c4-73e368e0c3e6",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Agent: Portfolio Narrator — 01KNY9VMMRC89WD1CGW5WMXNY9 (public)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "cbcf4678-f84a-4586-928d-2d0b9b3826bf",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Workflow 1: Inquiry form webhook — 01KNY9WBRSKDPQV7ZBYH7DCM3F",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "9f71dfad-faaa-4d70-870a-72fcab36e33a",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Workflow 2: Monthly refresh — 01KNY9Y99AREH1NVF8695NSXBM",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "7eed0ce7-cfd1-4d42-9247-f13530093e05",
+            "text": {
+              "ops": [
+                {
+                  "insert": "App Status: COMPLETE",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "h1",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": true,
+            "children": [
+              {
+                "type": "text",
+                "id": "c1ad51da-9ebb-4895-b878-9d5ac9067898",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Aesthetic: Editorial dark — Playfair Display + DM Mono + Instrument Sans, obsidian/amber palette",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              },
+              {
+                "type": "text",
+                "id": "1247f20d-df15-4981-881f-08008d16e254",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Note: Chakra UI v3 not available — using Radix UI + custom CSS (stronger editorial look)",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "bullet",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": true,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "🔌"
+    }
+  }
+}
